@@ -2,7 +2,7 @@
 import 'dart:io';
 
 import 'package:test/test.dart';
-import 'package:pid_controller/pid_controller.dart';
+import 'package:simple_pid/simple_pid.dart';
 
 void main() {
   group('pid construction', () {
