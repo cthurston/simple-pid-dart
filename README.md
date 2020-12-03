@@ -1,8 +1,8 @@
 # simple-pid-dart
-A simple PID controller. Ported from https://github.com/m-lundberg/simple-pid.
+A simple PID controller. If you want a PID controller without external dependencies that just works, this is for you!
 
-## This is the dart port of python simple-pid
-A simple and easy to use PID controller in dart. If you want a PID controller without external dependencies that just works, this is for you! The PID was ported from https://github.com/m-lundberg/simple-pid.
+## Credit
+This PID code was ported from https://github.com/m-lundberg/simple-pid. Thanks!
 
 ## Example
 Usage is very simple:
@@ -98,3 +98,4 @@ flutter pub run test
 
 ## License
 Licensed under the [BSD License](https://github.com/cthurston/simple-pid-dart/blob/master/LICENSE).
+Original python simple-pid: Licensed under the [MIT License](https://github.com/m-lundberg/simple-pid/blob/master/LICENSE.md).
