@@ -127,9 +127,7 @@ class PID {
 }
 
 double clamp(double value, double min, double max) {
-  if (value == null) {
-    return value;
-  } else if (value > max) {
+  if (value > max) {
     return max;
   } else if (value < min) {
     return min;

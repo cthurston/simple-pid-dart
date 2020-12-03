@@ -1,6 +1,6 @@
 name: simple_pid
 description: A simple PID controller. Ported from https://github.com/m-lundberg/simple-pid.
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/cthurston/simple-pid-dart
 
 environment:

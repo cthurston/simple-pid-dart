@@ -56,7 +56,7 @@ pid.Ki = 1.0;
 pid.tunings = [1.0, 0.2, 0.4];
 ```
 
-To use the PID in [reverse mode](http://brettbeauregard.com/blog/2011/04/improving-the-beginners-pid-direction/), meaning that an increase in the input leads to a decrease in the output (like when cooling for example), you can set the tunings to negative values:
+To use the PID in [reverse mode](https://brettbeauregard.com/blog/2011/04/improving-the-beginners-pid-direction/), meaning that an increase in the input leads to a decrease in the output (like when cooling for example), you can set the tunings to negative values:
 
 ```dart
 pid.tunings = [-1.0, -0.1, 0];
@@ -85,7 +85,7 @@ List<double> c = pid.components; // the separate terms are now in [p, i, d]
 ```
 
 #### Proportional on measurement
-To eliminate overshoot in certain types of systems, you can calculate the [proportional term directly on the measurement](http://brettbeauregard.com/blog/2017/06/introducing-proportional-on-measurement/) instead of the error. This can be enabled like this:
+To eliminate overshoot in certain types of systems, you can calculate the [proportional term directly on the measurement](https://brettbeauregard.com/blog/2017/06/introducing-proportional-on-measurement/) instead of the error. This can be enabled like this:
 ```dart
 proportionalOnMeasurement: true
 ```
