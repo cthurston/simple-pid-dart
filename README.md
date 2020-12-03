@@ -2,7 +2,7 @@
 A simple PID controller. Ported from https://github.com/m-lundberg/simple-pid.
 
 ## This is the dart port of python simple-pid
-A simple and easy to use PID controller in Python. If you want a PID controller without external dependencies that just works, this is for you! The PID was designed to be robust with help from [Brett Beauregards guide](http://brettbeauregard.com/blog/2011/04/improving-the-beginners-pid-introduction/).
+A simple and easy to use PID controller in dart. If you want a PID controller without external dependencies that just works, this is for you! The PID was ported from https://github.com/m-lundberg/simple-pid.
 
 ## Example
 Usage is very simple:
