@@ -6,3 +6,7 @@
 
 - Remove null check.
 - Update README links.
+
+## 1.0.2
+
+- Version bump.
