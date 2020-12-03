@@ -1,3 +1,8 @@
 ## 1.0.0
 
-- Initial version, created by Stagehand
+- Initial version, created by Stagehand.
+
+## 1.0.1
+
+- Remove null check.
+- Update README links.
