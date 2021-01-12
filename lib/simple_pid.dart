@@ -101,7 +101,7 @@ class PID {
     }
 
     // compute integral and derivative terms
-    integral = Ki * error * dt.inMicroseconds / 1000000;
+    integral += Ki * error * dt.inMicroseconds / 1000000;
     integral = clamp(integral, minOutput, maxOutput);
     derivative = -Kd * dInput / dt.inMicroseconds / 1000000;
 

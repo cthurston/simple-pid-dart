@@ -10,3 +10,7 @@
 ## 1.0.2
 
 - Version bump.
+
+## 1.0.3
+
+- Fix integral bug.
